@@ -1,17 +1,15 @@
-/**
- * A simple theme for reveal.js presentations, similar
- * to the default theme. The accent color is brown.
- *
- * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
- */
+/*
+	MAROON
+	A dark-red theme for reveal.js presentations.
+	Milorad Filipovic 
+	milorad.filipovic19 [AT] gmail [DOT] com
+*/
 
 
 // Default mixins and settings -----------------
 @import "../template/mixins";
 @import "../template/settings";
 // ---------------------------------------------
-
-
 
 // Override theme settings (see ../template/settings.scss)
 $mainFont: "Roboto Condensed",sans-serif;
@@ -26,9 +24,9 @@ $linkColor: #6a6a6a;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #26351C;
 
-$heading1Size: 2em;
+$heading1Size: 3em;
 $heading2Size: 1.5em;
-$heading3Size: 1em;
+$heading3Size: 1.2em;
 $heading4Size: 1em;
 
 .reveal a {
@@ -41,12 +39,19 @@ $heading4Size: 1em;
 		text-transform: uppercase !important;
 	}
 
+	h4 {
+		color: $secondaryColor !important;
+	}
+
 	.dashes {
 		width: 100%;
 		height: 2px;
 		background: url('../../images/line.png') repeat-x;
 		margin: .2em 0; 
 	}
+
+	ul { list-style: inside url('../../images/bullets/crown.png'); }
+	ul ul { list-style: inside url('../../images/bullets/fleur.png'); }
 
 }
 
