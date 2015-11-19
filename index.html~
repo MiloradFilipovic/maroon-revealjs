@@ -49,6 +49,8 @@
 			<div class="slides">
 				<section class="mainSlide center">
 					<h1>Maroon</h1>
+					<div class="dashes"></div>
+					<h3>A dark-red theme for reveal.js</h3>
 					<div class="social">
 						<a href="https://github.com/MiloradFilipovic" target="_blank">
 							<i class="fa fa-github social_icon"></i>
@@ -58,8 +60,6 @@
 						</a>
 						<span class="name">Milorad Filipovic</span>
 					</div>
-					<div class="dashes"></div>
-					<h3>A dark-red theme for reveal.js</h3>
 				</section>
 
 				<section>
@@ -85,9 +85,8 @@
 				progress: true,
 				history: true,
 				center: false,
-				slideNumber: true,
 
-				transition: 'convex', // none/fade/slide/convex/concave/zoom
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 				// Optional reveal.js plugins
 				dependencies: [
