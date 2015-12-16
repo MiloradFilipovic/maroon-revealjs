@@ -52,7 +52,36 @@ $heading4Size: 1em;
 
 	ul { list-style: inside url('../../images/bullets/crown.png'); }
 	ul ul { list-style: inside url('../../images/bullets/fleur.png'); }
+	li {
+		padding-left: 1.5em;
+    	text-indent: -1.6em;
+	}
 
+	code {
+		color: $secondaryColor;
+		text-transform: none;
+	    margin: 0 .2em;
+		font-size: .9em;
+	}
+
+	pre { 
+		display: flex !important;
+
+		code { 
+			width: 100%; 
+			font-size: 1em; 
+			margin: 0;
+		}
+	}
+
+	li pre { text-align: center; }
+	.litList { margin-top: .5em; }
+
+	.litSubtitle {
+		font-family: monospace;
+		color: $secondaryColor;
+		font-size: .7em;
+	}
 }
 
 .reveal .slides {

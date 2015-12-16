@@ -25,6 +25,34 @@
 .reveal ul ul {
   list-style: inside url("../../images/bullets/fleur.png"); }
 
+.reveal li {
+  padding-left: 1.5em;
+  text-indent: -1.6em; }
+
+.reveal code {
+  color: #6a6a6a;
+  text-transform: none;
+  margin: 0 .2em;
+  font-size: .9em; }
+
+.reveal pre {
+  display: flex !important; }
+  .reveal pre code {
+    width: 100%;
+    font-size: 1em;
+    margin: 0; }
+
+.reveal li pre {
+  text-align: center; }
+
+.reveal .litList {
+  margin-top: .5em; }
+
+.reveal .litSubtitle {
+  font-family: monospace;
+  color: #6a6a6a;
+  font-size: .7em; }
+
 .reveal .slides {
   text-align: left; }
   .reveal .slides h1 {
